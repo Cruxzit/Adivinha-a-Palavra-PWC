@@ -2,3 +2,16 @@
     text-align: center;
     align-items: center;
 }
+
+.area_jogo{
+    text-align: center;
+    align-items: center;
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
