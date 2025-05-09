@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha a Palavra!</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>Adivinha a Palavra!</h1>
+        <h2>Tenta adivinhar a palavra</h2>
+    </div>
+
+    <div class="jogo">
+        <p id="tentativas_restantes">Tentativas restantes: 6</p>
+        <p id="palavra_escondida">_ _ _ _ _</p>
+        <p id="mensagem"></p>
+        <p>
+            Letras corretas: <span id="letras_corretas">0</span> |
+            Por adivinhar: <span id="letras_restantes">0</span> |
+            Total: <span id="total_letras">0</span>
+        </p>
+    </div>
+
+    <div class="teclado" id="teclado">
+        <!-- o teclado é feito no javascript -->
+    </div>
+
+    <div class="reiniciar">
+        <button id="botao_reiniciar">Reiniciar Jogo</button>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

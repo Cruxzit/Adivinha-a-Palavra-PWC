@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.jogo {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    background-color: #fff;
+}
+
+.teclado {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    width: 40%;
+}
+
+.teclado button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reiniciar {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+#botao_reiniciar {
+
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 1px solid transparent;
+    border-color: #000;
+    color: #000;
+    background: red;
+    font-weight: 800;
+    line-height: 30px;
+    
+}
+
+
+.botao-teclado {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.botao-teclado:hover {
+    background-color: #7c7676;
+    transform: scale(1.1);
+}
+
+.botao-teclado:active {
+    transform: scale(0.9);
+}
+
